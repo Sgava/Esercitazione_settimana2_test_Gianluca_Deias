@@ -133,7 +133,7 @@ namespace Esercitazione_dipendenti_test
             //ASSERT
 
             Assert.True(!string.IsNullOrEmpty(benefit));
-            Assert.Contains("abc123 c0d1ce", benefit);
+            Assert.Contains("te55er4 50 c0d1ce", benefit);
             Assert.NotEqual("", benefit);   //valido ma non facilmente comrendibile
 
         }
